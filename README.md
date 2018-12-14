@@ -1,2 +1,3 @@
 # euler-problems
-Solve Euler problems
+Improve development skills solving the [Project Euler](https://projecteuler.net) problems.
+
