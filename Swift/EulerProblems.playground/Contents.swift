@@ -1,5 +1,6 @@
 import Foundation
 
+// Problem 1
 // Multiples of 3 and 5
 //If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 //
@@ -8,10 +9,9 @@ import Foundation
 func sum(until: Int) -> Int {
     var total = 0
     for i in 3 ..< until {
-        guard i % 3 == 0 || i % 5 == 0 else {
-            continue
+        if i % 3 == 0 || i % 5 == 0 {
+            total = total  + i
         }
-        total = total  + i
     }
     return total
 }
